@@ -1,0 +1,33 @@
+# dan 核心依赖
+# 基础
+pydantic>=2.0
+pyyaml>=6.0
+
+# LLM
+openai>=1.0
+httpx>=0.27
+
+# 向量数据库
+pymilvus>=2.4
+
+# 全文检索
+elasticsearch>=8.0
+
+# 知识图谱
+neo4j>=5.0
+
+# 数据库
+psycopg2-binary>=2.9
+
+# Kafka
+kafka-python>=2.0
+
+# Docker SDK（沙箱）
+docker>=7.0
+
+# 异步
+aiohttp>=3.9
+
+# 测试
+pytest>=8.0
+pytest-asyncio>=0.23
